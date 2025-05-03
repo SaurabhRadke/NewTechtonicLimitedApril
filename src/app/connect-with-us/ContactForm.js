@@ -2,6 +2,7 @@
 "use client";
 import { useState } from 'react';
 import axios from 'axios';
+import Link from 'next/link';
 
 export default function ContactForm() {
   const [formData, setFormData] = useState({
@@ -203,7 +204,7 @@ export default function ContactForm() {
           
           {/* Privacy Policy and Terms of Service */}
           <div className="mt-8 text-sm text-gray-600">
-            By using this form, you agree to our <a href="#" className="text-emerald-600 hover:underline">Privacy Policy</a> and <a href="#" className="text-emerald-600 hover:underline">Terms of Service</a>.
+            By using this form, you agree to our <Link href="/privacy-policy" className="text-emerald-600 hover:underline">Privacy Policy</Link> and <Link href="/terms-of-service" className="text-emerald-600 hover:underline">Terms of Service</Link>.
           </div>
         </div>
       </div>

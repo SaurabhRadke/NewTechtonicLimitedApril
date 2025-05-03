@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 const FooterSection = () => {
   return (
-    <footer className="bg-zinc-950  text-white py-12">
+    <footer className="bg-zinc-950  text-white  py-12">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Company Logo and Social Links */}
@@ -43,8 +43,8 @@ const FooterSection = () => {
               <li><Link href="/aboutus" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
               <li><Link href="/connect-with-us" className="text-gray-400 hover:text-white transition-colors">Support</Link></li>
               <li><Link href="/privacy-policy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
-              <li><Link href="/terms-of-services" className="text-gray-400 hover:text-white transition-colors">Terms and Condition</Link></li>
-              <li><Link href="#" className="text-gray-400 hover:text-white transition-colors">Hire From Us</Link></li>
+              <li><Link href="/terms-of-service" className="text-gray-400 hover:text-white transition-colors">Terms and Condition</Link></li>
+              <li><Link href="/hire-from-us" className="text-gray-400 hover:text-white transition-colors">Hire From Us</Link></li>
             </ul>
           </div>
 

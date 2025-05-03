@@ -57,7 +57,7 @@ export default function HeaderSection(){
             </div></Link>
             
             <div className="flex items-center gap-3">
-                <div className="overflow-hidden md:block hidden">
+                <div className="overflow-hidden md:block hidden text-emerald-600">
                     <motion.div 
                         initial={{x:50}} 
                         animate={{x:0}} 

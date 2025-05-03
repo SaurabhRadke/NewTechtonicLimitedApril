@@ -74,9 +74,10 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
 
   const menuLinks = [
     { name: "Home", url: "/" },
+    { name: "About Us", url: "/aboutus" },
     { name: "Courses", url: "/#courses" },
     { name: "Carrers", url: "/carrers" },
-    // { name: "Tutorials", url: "#" },
+    { name: "Hire From Us", url: "/hire-from-us" },
     { name: "Contacts", url: "/connect-with-us" }
   ];
 
@@ -142,7 +143,7 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
             className="fixed top-0 right-0 h-full bg-white z-50 shadow-xl overflow-x-hidden overflow-y-auto "
             style={{ width: windowWidth > 768 ? '600px' : '100%' }}
           >
-            <div className="flex flex-col h-full pt-[15%]  ">
+            <div className="flex flex-col h-full pt-[12%]  ">
               {/* Social media column */}
               
 

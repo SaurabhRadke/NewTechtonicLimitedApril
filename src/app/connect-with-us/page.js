@@ -30,7 +30,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Call us</h3>
-              <p className="mt-2 text-base text-gray-600">+1 (555) 123-4567</p>
+              <p className="mt-2 text-base text-gray-600">+91-8766069947</p>
             </div>
             
             <div className="text-center">
@@ -40,7 +40,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Email us</h3>
-              <p className="mt-2 text-base text-gray-600">info@example.com</p>
+              <p className="mt-2 text-base text-gray-600">admin@techtoniccorporate.com</p>
             </div>
             
             <div className="text-center">
@@ -51,7 +51,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Visit us</h3>
-              <p className="mt-2 text-base text-gray-600">123 Design Street, Creative City</p>
+              <p className="mt-2 text-base text-gray-600">SAI NIT-JIT PLAZA, Second Floor, Plot No.10, Beltarodi Ed. nr. GULMOHAR RESTAURANT, Manish Nagar, Somalwar, nagpur, MH-440037</p>
             </div>
           </div>
         </div>

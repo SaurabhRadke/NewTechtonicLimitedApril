@@ -34,7 +34,7 @@ export default function Home() {
       <div className=" py-[8vh] bg-zinc-100 ">
         <TopCompaniesSection/>
       </div>
-      <div className=" w-full h-[100vh]">
+      <div className=" w-full min-h-[100vh]">
         <TestimonialCarousel/>
       </div>
       <FacultyAndLEaders/>

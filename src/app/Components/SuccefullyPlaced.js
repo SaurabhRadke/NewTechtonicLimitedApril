@@ -41,7 +41,7 @@ const TopCompaniesSection = () => {
   // List of company logos
   const companies = [
     {
-      name: 'InfoCrafts',
+      name: 'InfoKrafts',
       logo: infocraft, // Static image path
       width: 100,
       height: 80
