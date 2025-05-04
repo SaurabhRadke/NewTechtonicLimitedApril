@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
                 </p>
                 <p className="text-gray-700 leading-relaxed mt-4">
                   This policy applies to all services offered by TECHTONIC-LAB, including our website, 
-                  online courses, and other educational content. By using our services, you acknowledge 
+                  online courses and other educational content. By using our services, you acknowledge 
                   that you have read and understood this Privacy Policy.
                 </p>
               </div>
@@ -126,7 +126,7 @@ const PrivacyPolicy = () => {
                 
                 <div className="mt-4 bg-gray-50 p-4 rounded-lg border-l-4 border-emerald-500">
                   <h3 className="font-medium text-gray-800">Personal Information</h3>
-                  <p className="text-gray-600 mt-1">Name, email address, phone number, and course interests when you register or contact us.</p>
+                  <p className="text-gray-600 mt-1">Name, email address, phone number and course interests when you register or contact us.</p>
                 </div>
                 
                 <div className="mt-4 bg-gray-50 p-4 rounded-lg border-l-4 border-emerald-500">
@@ -192,7 +192,7 @@ const PrivacyPolicy = () => {
                         </svg>
                       </div>
                     </div>
-                    <p className="ml-3 text-gray-700">For communication, support, and promotional purposes (only with your consent)</p>
+                    <p className="ml-3 text-gray-700">For communication, support and promotional purposes (only with your consent)</p>
                   </div>
                   
                   <div className="flex">
@@ -203,13 +203,13 @@ const PrivacyPolicy = () => {
                         </svg>
                       </div>
                     </div>
-                    <p className="ml-3 text-gray-700">To improve our website, courses, and overall training services</p>
+                    <p className="ml-3 text-gray-700">To improve our website, courses and overall training services</p>
                   </div>
                 </div>
                 
                 <p className="text-gray-700 leading-relaxed mt-4">
                   We process your data only for these specific purposes and ensure that our data processing activities 
-                  are fair, lawful, and transparent.
+                  are fair, lawful and transparent.
                 </p>
               </div>
             </section>

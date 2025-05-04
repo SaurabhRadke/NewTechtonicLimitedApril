@@ -76,7 +76,7 @@ export default function ThreeStepSection() {
     { 
       number: 2, 
       title: "Skill Enhancement Resources", 
-      description: "Access curated libraries of courses, workshops, and tools to build in-demand professional skills",
+      description: "Access curated libraries of courses, workshops and tools to build in-demand professional skills",
       icon: (
         <svg className="w-8 h-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
           <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
@@ -112,7 +112,9 @@ export default function ThreeStepSection() {
           <h2 className="text-[1.8rem] sm:text-[2rem] md:text-[2.2rem] lg:text-[2.5rem] xl:text-[3rem] text-emerald-500 font-bold mb-1 md:mb-2">Land Your Dream Job</h2>
           <h3 className="text-[0.8rem] sm:text-[0.9rem] md:text-xl mb-2 md:mb-3 text-zinc-400">With our proven 3-step approach</h3>
           <p className="text-zinc-300 text-sm sm:text-base max-w-3xl mx-auto">
-          &quot;Transforming careers through expert guidance, skills development, and perfect-match opportunities — all tailored to your unique potential.&quot;
+          &quot;Transforming careers through expert guidance, skills development
+          
+           and perfect-match opportunities — all tailored to your unique potential.&quot;
           </p>
         </motion.div>
         

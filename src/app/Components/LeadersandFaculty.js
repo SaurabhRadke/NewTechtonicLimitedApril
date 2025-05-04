@@ -28,14 +28,14 @@ export default function FacultyAndLeaders(){
 
         {
             name:"Dnyaneshwari Talekar",
-            tag:"10+ years in HR, recruitment, training, and development",
+            tag:"10+ years in HR, recruitment, training and development",
             content:[
-                "A seasoned Human Resources (HR) professional with over 10 years of experience in corporate training and development, staffing, and end-to-end recruitment for both IT and non-IT sectors.",
-                "I specialize in providing comprehensive solutions that enhance organizational growth, ensuring the right talent is sourced, trained, and aligned with company goals.",
-                "Throughout my career, I have had the privilege of working with leading organizations such as Capgemini, Accenture, Wipro, CSI Software Pvt. Ltd. (UK), and Chate Coaching Classes, offering strategic consultation on sourcing, recruitment, and training activities.",
-                "My experience spans managing recruitment processes, driving employee development programs, and creating talent acquisition strategies that address both current and future organizational needs.",
+                "A seasoned Human Resources (HR) professional with over 10 years of experience in corporate training and development, staffing and end-to-end recruitment for both IT and non-IT sectors.",
+                "I specialize in providing comprehensive solutions that enhance organizational growth, ensuring the right talent is sourced, trained and aligned with company goals.",
+                "Throughout my career, I have had the privilege of working with leading organizations such as Capgemini, Accenture, Wipro, CSI Software Pvt. Ltd. (UK) and Chate Coaching Classes, offering strategic consultation on sourcing, recruitment and training activities.",
+                "My experience spans managing recruitment processes, driving employee development programs and creating talent acquisition strategies that address both current and future organizational needs.",
                 "I am deeply passionate about supporting freshers and job seekers in realizing their professional aspirations, guiding them through the complexities of career development and securing their dream jobs.",
-                "By focusing on skill development, personalized coaching, and mentorship, I am dedicated to making a positive impact on individuals' careers, helping them navigate the job market with confidence and success."
+                "By focusing on skill development, personalized coaching and mentorship, I am dedicated to making a positive impact on individuals' careers, helping them navigate the job market with confidence and success."
             ] ,
             profile:Dnyaneshwari
         },
@@ -48,12 +48,12 @@ export default function FacultyAndLeaders(){
             name:"Manish Pimpale Sir",
             tag:"27+ years in IT, database management, AI, cloud solutions.",
             content:[
-                "A seasoned IT professional with over 25 years of experience in database management, cloud data solutions, artificial intelligence, and enterprise architecture.",
-                "Renowned for designing and implementing data-driven strategies, this expert has successfully delivered solutions in complex domains such as banking, retail, and finance.",
+                "A seasoned IT professional with over 25 years of experience in database management, cloud data solutions, artificial intelligence and enterprise architecture.",
+                "Renowned for designing and implementing data-driven strategies, this expert has successfully delivered solutions in complex domains such as banking, retail and finance.",
                 "Key expertise includes:",
-                "Cloud Data Management: Specialized in Oracle, Teradata, Snowflake, MongoDB, and major cloud platforms (AWS, Azure, Google Cloud).",
-                "AI & Machine Learning: Developed and deployed AI models, enterprise architectures (TOGAF), and data science infrastructures.",
-                "Data Migration & Optimization: Designed and executed data migration pipelines, backup systems, and performance tuning solutions.",
+                "Cloud Data Management: Specialized in Oracle, Teradata, Snowflake, MongoDB and major cloud platforms (AWS, Azure, Google Cloud).",
+                "AI & Machine Learning: Developed and deployed AI models, enterprise architectures (TOGAF) and data science infrastructures.",
+                "Data Migration & Optimization: Designed and executed data migration pipelines, backup systems and performance tuning solutions.",
                 "Training & Consultancy: Conducted 100+ corporate training sessions across leading IT firms and developed comprehensive training programs."
             ],
             profile:ManishPimple_Sir
@@ -63,11 +63,11 @@ export default function FacultyAndLeaders(){
             name:"Shrawan Sir",
             tag:"12+ years in IT consulting, ERP, supply chain management.",
             content: [
-                "12+ Years of Industry Experience: Extensive expertise in IT consulting, technology, and supply chain management, with a proven record of delivering robust solutions for FMCG, Manufacturing, Oil & Gas, Chemicals, Automobile, and Fashion industries.",
-                "Specialist in ERP and Cloud Technologies: Skilled in SAP, S/4 HANA, Cloud, ECC, and system integration, with hands-on experience in ERP implementation, solution design, and acting as a supply chain team lead for high-impact projects.",
-                "Project Leadership & Business Strategy: Successfully led project and operations teams, conducted workshops, aligned project scope, and delivered innovative solutions to meet business goals. Identified opportunities for business expansion and organizational restructuring to optimize processes.",
+                "12+ Years of Industry Experience: Extensive expertise in IT consulting, technology and supply chain management, with a proven record of delivering robust solutions for FMCG, Manufacturing, Oil & Gas, Chemicals, Automobile and Fashion industries.",
+                "Specialist in ERP and Cloud Technologies: Skilled in SAP, S/4 HANA, Cloud, ECC and system integration, with hands-on experience in ERP implementation, solution design and acting as a supply chain team lead for high-impact projects.",
+                "Project Leadership & Business Strategy: Successfully led project and operations teams, conducted workshops, aligned project scope and delivered innovative solutions to meet business goals. Identified opportunities for business expansion and organizational restructuring to optimize processes.",
                 "Academic Excellence: Holds a Master’s in Supply Chain Management from Mumbai University and a B.Tech in Petrochemical Engineering from Amravati University, blending technical proficiency with strategic supply chain expertise.",
-                "End-to-End Solution Delivery: Adept at collaborating with stakeholders, addressing business needs, and implementing best-in-class solutions to achieve operational excellence and business transformation."
+                "End-to-End Solution Delivery: Adept at collaborating with stakeholders, addressing business need and implementing best-in-class solutions to achieve operational excellence and business transformation."
               ],
               profile:shrawan
         },
@@ -77,23 +77,23 @@ export default function FacultyAndLeaders(){
             name:"Sudhir Sir",
             tag:"12+ years in business intelligence, strategy, client relations, leadership.",
             content:[
-                "Extensive Experience in Strategic Decision-Making: Over a decade of expertise in business intelligence, market research, and corporate strategy, driving growth and innovation as a Category Lead for a global MNC across FMCG, Pharma, and Automobile sectors.",
-                "Global Client Relations & Business Development: Successfully built and managed client relationships in US, UK, Russia, Poland, Spain, and India, delivering customized solutions and fostering long-term partnerships that contribute to sustained business growth.",
-                "Corporate Grooming & Leadership Mentorship: A strong advocate for professional excellence, providing corporate training, career guidance, and leadership mentoring through structured internship programs and job assistance initiatives.",
-                "Holistic Approach to Professional Growth: Passionate about spirituality and holistic development, integrating these principles to inspire balanced growth, well-being, and improved organizational outcomes.",
+                "Extensive Experience in Strategic Decision-Making: Over a decade of expertise in business intelligence, market research and corporate strategy, driving growth and innovation as a Category Lead for a global MNC across FMCG, Pharma and Automobile sectors.",
+                "Global Client Relations & Business Development: Successfully built and managed client relationships in US, UK, Russia, Poland, Spain and India, delivering customized solutions and fostering long-term partnerships that contribute to sustained business growth.",
+                "Corporate Grooming & Leadership Mentorship: A strong advocate for professional excellence, providing corporate training, career guidance and leadership mentoring through structured internship programs and job assistance initiatives.",
+                "Holistic Approach to Professional Growth: Passionate about spirituality and holistic development, integrating these principles to inspire balanced growth, well-being and improved organizational outcomes.",
                 "Educational & Technical Excellence: Holds an MBA from Mumbai University and a Petrochemical Engineering degree, leveraging technical knowledge and strategic insight to create impactful business solutions across diverse industries."
               ],
               profile:Sudhir_Sir
         },
         {
             name:"Harshal Sir",
-            tag:"6+ years in sales, marketing, ERP, supply chain, and education.",
+            tag:"6+ years in sales, marketing, ERP, supply chain and education.",
             content:[
-                "6+ Years of Experience Across Diverse Industries: Proven expertise in sales, marketing, automobile, manufacturing, and education, driving growth and operational excellence across these domains.",
-                "IT Expertise in Cutting-Edge Technologies: Skilled in ERP, SAP, S/4 HANA, Cloud Computing, and UI/UX Design, with a strong understanding of enterprise systems and their role in enhancing organizational efficiency.",
+                "6+ Years of Experience Across Diverse Industries: Proven expertise in sales, marketing, automobile, manufacturing and education, driving growth and operational excellence across these domains.",
+                "IT Expertise in Cutting-Edge Technologies: Skilled in ERP, SAP, S/4 HANA, Cloud Computing and UI/UX Design, with a strong understanding of enterprise systems and their role in enhancing organizational efficiency.",
                 "Supply Chain & Enterprise Architecture Expertise: Adept at designing and implementing effective supply chain solutions and enterprise architecture frameworks, ensuring seamless integration and scalability.",
                 "Educational Background in Engineering: Holds a B.E. in Mechanical Engineering from Nagpur University, blending technical knowledge with strategic insight to solve complex business challenges.",
-                "Innovative Problem Solver: Passionate about leveraging technology and strategic planning to deliver robust solutions that drive growth, streamline processes, and meet business objectives."
+                "Innovative Problem Solver: Passionate about leveraging technology and strategic planning to deliver robust solutions that drive growth, streamline processes and meet business objectives."
               ],
             //   profile:Harshal_Sir
         },
@@ -105,7 +105,7 @@ export default function FacultyAndLeaders(){
                 "With a strong foundation in extracting valuable insights from complex datasets, Vivek has mastered the art of transforming raw data into actionable business intelligence that drives impactful decision-making.",
                 "His expertise in Power BI stands out, allowing him to create dynamic, interactive dashboards that offer real-time insights to organizations, empowering them to make data-driven decisions with confidence.",
                 "Additionally, Vivek Sir is highly skilled in SQL, the cornerstone of database management and querying, which is integral to the successful implementation of data solutions across various industries.",
-                "Throughout his career, Vivek Sir has worked with diverse sectors, applying data analytics to enhance operational efficiency, improve processes, and drive strategic business outcomes.",
+                "Throughout his career, Vivek Sir has worked with diverse sectors, applying data analytics to enhance operational efficiency, improve processes and drive strategic business outcomes.",
                 "At TECHTONIC-LAB, he is committed to bridging the gap between theory and practice, ensuring students not only master the essential tools of data analytics but also gain practical insights that prepare them for a successful career in the field.",
                 "His unique teaching style combines industry experience with a practical, hands-on approach, equipping students with the critical skills they need to thrive in today’s data-driven world.",
                 "Vivek's dedication to nurturing the next generation of data professionals has made him a valuable mentor and guide for aspiring data analysts."

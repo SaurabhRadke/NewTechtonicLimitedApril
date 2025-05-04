@@ -9,7 +9,7 @@ const testimonials = [
     content: "Thanks to Techtonic Lab's expert training and strong industry connections, I got placed at InfoCrafts in no time!",
     rating: 5,
     name: "Pranal Rewatkar",
-    company: "InfoCrafts",
+    company: "InfoKrafts",
     package: "",
     image: "/api/placeholder/40/40"
   },
@@ -49,7 +49,7 @@ const TestimonialCarousel = () => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-zinc-950 px-4 py-16">
-        <h1 className='uppercase font-medium mb-3 text-white'>Testimonial</h1>
+        <h1 className='uppercase font-medium mb-3 text-white'>Testimonials</h1>
         <div className='w-[90%] text-[2rem] md:text-[5rem] md:w-[60%] font-semibold text-center leading-[3rem] md:leading-[5rem] mb-[10vh] text-white'>Real Stories. Real Impact. Zero Hype.</div>
       <div className="max-w-2xl w-full mx-auto">
         {/* Rating Display */}

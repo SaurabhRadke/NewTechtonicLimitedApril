@@ -25,7 +25,7 @@ const AboutUs = () => {
             TECHTONIC-LAB is a premier IT training institute based in Nagpur, Maharashtra, focused on transforming academic learners, job seekers and working professionals into industry-ready IT experts. With a firm belief that education should evolve with industry trends, we offer future-facing training programs designed to match the dynamic expectations of today&apos;s tech-driven world.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            We specialize in Data Analytics, Business Analytics, Data Science and SAP (all modules)—equipping individuals with practical, job-oriented skills that enable successful transitions into IT roles or help accelerate growth in existing careers.
+            We specialize in Data Analytics, Business Analytics, Data Analytics and SAP (all modules)—equipping individuals with practical, job-oriented skills that enable successful transitions into IT roles or help accelerate growth in existing careers.
           </p>
         </div>
         

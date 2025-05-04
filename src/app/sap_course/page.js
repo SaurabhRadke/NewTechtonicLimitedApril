@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import HeaderSection from '../Components/HeaderSection';
 import FooterSection from '../Components/FooterSection';
+import Link from 'next/link';
 
 const AccordionItem = ({ title, children, isOpen, onClick }) => {
   return (
@@ -109,12 +110,12 @@ const SAPCoursesAccordion = () => {
             </div>
 
             <div className="pt-6 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
              
             </div>
           </div>
@@ -132,7 +133,7 @@ const SAPCoursesAccordion = () => {
                 <h4 className="text-xl font-semibold text-emerald-500 mb-3">SAP FICO</h4>
                 <p className="text-zinc-300 mb-4">
                   Financial Accounting & Controlling module covers general ledger, accounts payable/receivable, 
-                  asset accounting, and profitability analysis.
+                  asset accounting and profitability analysis.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
                   <li>Configure financial accounting structures</li>
@@ -157,7 +158,7 @@ const SAPCoursesAccordion = () => {
               <div className="bg-zinc-900 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-emerald-500 mb-3">SAP SD</h4>
                 <p className="text-zinc-300 mb-4">
-                  Sales & Distribution focuses on sales order processing, pricing, billing, and customer 
+                  Sales & Distribution focuses on sales order processing, pricing, billing and customer 
                   relationship management.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
@@ -182,12 +183,12 @@ const SAPCoursesAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
           
             </div>
           </div>
@@ -219,12 +220,12 @@ const SAPCoursesAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             
             </div>
           </div>
@@ -240,7 +241,7 @@ const SAPCoursesAccordion = () => {
             <div className="bg-zinc-900 p-6 rounded-lg">
               <h4 className="text-xl font-semibold text-emerald-500 mb-3">Free Corporate Grooming Module</h4>
               <p className="text-zinc-300 mb-4">
-                Enhance your professional presence, communication skills, and workplace etiquette with our 
+                Enhance your professional presence, communication skills and workplace etiquette with our 
                 comprehensive corporate grooming module, included free with every 3-month course enrollment.
               </p>
               <ul className="list-disc pl-5 space-y-2 text-zinc-400">
@@ -253,12 +254,12 @@ const SAPCoursesAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
         
             </div>
           </div>

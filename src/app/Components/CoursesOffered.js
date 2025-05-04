@@ -77,11 +77,9 @@ const CourseCard = ({ title, description, image, tag, index, hoveredCard, setHov
           {/* Tag */}
           <div className='flex items-center gap-3'>
           <div className="inline-block px-3 py-1 bg-emerald-500 text-zinc-800 text-sm font-medium rounded">
-            Techtonic Labs Course
+            Techtonic Lab 
           </div>
-          <div className="inline-block px-3 py-1 bg-emerald-500 text-zinc-800 text-sm font-medium rounded">
-            Hindi
-          </div>
+        
           </div>
          
         </div>
@@ -134,7 +132,7 @@ const CoursesSection = () => {
     },
     {
       title: "Corporate Grooming & Personality Development",
-      description: "Enhance your professional presence, communication skills, and workplace etiquette. Free with every 3-month course enrollment.",
+      description: "Enhance your professional presence, communication skills and workplace etiquette. Free with every 3-month course enrollment.",
       image: "/course/corporate.png",
       tag: "FREE",
       link:"/corporate_grooming"

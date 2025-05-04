@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import HeaderSection from '../Components/HeaderSection';
 import FooterSection from '../Components/FooterSection';
+import Link from 'next/link';
 
 const AccordionItem = ({ title, children, isOpen, onClick }) => {
   return (
@@ -113,12 +114,10 @@ const CorporateGroomingAccordion = () => {
             </div>
 
             <div className="pt-6 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
-                Learn More
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+         
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             </div>
           </div>
         </AccordionItem>
@@ -147,7 +146,7 @@ const CorporateGroomingAccordion = () => {
               <div className="bg-zinc-900 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-purple-400 mb-3">Written Communication</h4>
                 <p className="text-zinc-300 mb-4">
-                  Master professional business writing for emails, reports, and digital communication across 
+                  Master professional business writing for emails, reports and digital communication across 
                   multiple workplace contexts.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
@@ -173,7 +172,7 @@ const CorporateGroomingAccordion = () => {
               <div className="bg-zinc-900 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-purple-400 mb-3">Non-verbal Communication</h4>
                 <p className="text-zinc-300 mb-4">
-                  Understand and leverage body language, facial expressions, and other non-verbal cues 
+                  Understand and leverage body language, facial expressions and other non-verbal cues 
                   for more effective communication.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
@@ -185,12 +184,10 @@ const CorporateGroomingAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
-                Learn More
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+         
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             </div>
           </div>
         </AccordionItem>
@@ -210,7 +207,7 @@ const CorporateGroomingAccordion = () => {
               <h4 className="text-xl font-semibold text-purple-400 mb-3">Personal Branding & Presentation</h4>
               <p className="text-zinc-300 mb-4">
                 Learn to craft and maintain a professional image that aligns with your career goals and industry 
-                expectations through appearance, behavior, and digital presence.
+                expectations through appearance, behavior and digital presence.
               </p>
               <ul className="list-disc pl-5 space-y-2 text-zinc-400">
                 <li>Professional dress codes and industry-specific attire</li>
@@ -223,12 +220,10 @@ const CorporateGroomingAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
-                Learn More
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+         
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             </div>
           </div>
         </AccordionItem>
@@ -258,12 +253,10 @@ const CorporateGroomingAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
-                Learn More
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+         
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             </div>
           </div>
         </AccordionItem>
@@ -278,7 +271,7 @@ const CorporateGroomingAccordion = () => {
             <div className="bg-zinc-900 p-6 rounded-lg">
               <h4 className="text-xl font-semibold text-purple-400 mb-3">Long-term Career Development</h4>
               <p className="text-zinc-300 mb-4">
-                Develop strategies for continuous professional growth, workplace success, and career advancement
+                Develop strategies for continuous professional growth, workplace success and career advancement
                 beyond the initial job placement.
               </p>
               <ul className="list-disc pl-5 space-y-2 text-zinc-400">
@@ -293,12 +286,10 @@ const CorporateGroomingAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
-                Learn More
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+         
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             </div>
           </div>
         </AccordionItem>

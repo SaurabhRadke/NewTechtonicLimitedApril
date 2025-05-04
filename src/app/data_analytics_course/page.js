@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import HeaderSection from '../Components/HeaderSection';
 import FooterSection from '../Components/FooterSection';
+import Link from 'next/link';
 
 const AccordionItem = ({ title, children, isOpen, onClick }) => {
   return (
@@ -89,7 +90,7 @@ const DataScienceAccordion = () => {
           onClick={() => toggleSection(1)}
         >
           <div className="space-y-6">
-            <h4 className="text-xl font-semibold text-blue-500">Comprehensive Data Science Program</h4>
+            <h4 className="text-xl font-semibold text-blue-500">Comprehensive Data Analytics Program</h4>
             <ul className="list-disc pl-5 space-y-2 text-zinc-300">
               <li>Tools: Python, Tableau, Excel, Power BI, SQL, AI</li>
               <li>Duration: 3 months + 1 month corporate grooming</li>
@@ -112,12 +113,12 @@ const DataScienceAccordion = () => {
             </div>
 
             <div className="pt-6 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+             <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
               
             </div>
           </div>
@@ -135,7 +136,7 @@ const DataScienceAccordion = () => {
                 <h4 className="text-xl font-semibold text-blue-500 mb-3">Python & Libraries</h4>
                 <p className="text-zinc-300 mb-4">
                   Master Python programming with essential data science libraries including NumPy, Pandas, 
-                  Matplotlib, Seaborn, SciKit-Learn, and TensorFlow/PyTorch.
+                  Matplotlib, Seaborn, SciKit-Learn and TensorFlow/PyTorch.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
                   <li>Data manipulation and cleaning</li>
@@ -148,7 +149,7 @@ const DataScienceAccordion = () => {
                 <h4 className="text-xl font-semibold text-blue-500 mb-3">Data Visualization</h4>
                 <p className="text-zinc-300 mb-4">
                   Create compelling data stories and dashboards with industry-standard tools like Tableau,
-                  Power BI, and Python visualization libraries.
+                  Power BI and Python visualization libraries.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
                   <li>Interactive dashboard creation</li>
@@ -160,7 +161,7 @@ const DataScienceAccordion = () => {
               <div className="bg-zinc-900 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-blue-500 mb-3">SQL & Database Management</h4>
                 <p className="text-zinc-300 mb-4">
-                  Learn database design, management, and advanced querying techniques to extract meaningful insights 
+                  Learn database design, management and advanced querying techniques to extract meaningful insights 
                   from structured data sources.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
@@ -173,7 +174,7 @@ const DataScienceAccordion = () => {
               <div className="bg-zinc-900 p-6 rounded-lg">
                 <h4 className="text-xl font-semibold text-blue-500 mb-3">AI & Machine Learning</h4>
                 <p className="text-zinc-300 mb-4">
-                  Explore advanced machine learning algorithms, model selection, evaluation techniques, and 
+                  Explore advanced machine learning algorithms, model selection, evaluation techniques and 
                   practical AI implementation strategies.
                 </p>
                 <ul className="list-disc pl-5 space-y-1 text-zinc-400">
@@ -185,12 +186,12 @@ const DataScienceAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+             <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
            
             </div>
           </div>
@@ -224,12 +225,12 @@ const DataScienceAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+             <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
            
             </div>
           </div>
@@ -259,12 +260,12 @@ const DataScienceAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+             <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
             
             </div>
           </div>
@@ -294,12 +295,12 @@ const DataScienceAccordion = () => {
             </div>
             
             <div className="pt-4 flex flex-wrap gap-4">
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+             <Link href="/#courses"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Courses
-              </button>
-              <button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
+              </button></Link>
+              <Link href="/connect-with-us"><button className="bg-transparent border border-zinc-700 text-white px-6 py-3 rounded-md hover:bg-zinc-800 transition-colors">
                 Request Callback
-              </button>
+              </button></Link>
          
             </div>
           </div>

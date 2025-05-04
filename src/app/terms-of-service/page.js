@@ -93,7 +93,7 @@ const TermsOfService = () => {
               <p className="text-gray-700 leading-relaxed text-lg">
                 By accessing our website or enrolling in our training programs, you agree to the following terms. 
                 These terms constitute a legally binding agreement between you and TECHTONIC-LAB regarding your 
-                use of our services, website, and educational content.
+                use of our services, website and educational content.
               </p>
               <div className="bg-emerald-50 border-l-4 border-emerald-500 p-5 rounded-r-lg mt-6">
                 <p className="text-gray-700">

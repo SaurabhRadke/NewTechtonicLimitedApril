@@ -136,7 +136,7 @@ const handleSubmit = async (e) => {
       {/* Heading Section */}
       <div className="mb-8 pt-10">
         <h1 className=" text-2xl sm:text-3xl md:text-5xl font-bold text-gray-800">Hire Talent</h1>
-        <p className="text-gray-600 mt-4">Got a position to fill? Let us help you find the perfect match. Fill in your requirements below, and our support team will contact you as soon as possible.</p>
+        <p className="text-gray-600 mt-4">Got a position to fill? Let us help you find the perfect match. Fill in your requirements below and our support team will contact you as soon as possible.</p>
       </div>
       
      
@@ -298,7 +298,7 @@ const handleSubmit = async (e) => {
               onChange={handleChange}
               rows="6"
               className="w-full border-none focus:outline-none focus:ring-0 text-gray-800 resize-none"
-              placeholder="Describe the role, responsibilities, and requirements in detail..."
+              placeholder="Describe the role, responsibilities and requirements in detail..."
             ></textarea>
           </div>
         </div>

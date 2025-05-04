@@ -16,8 +16,8 @@ const FooterSection = () => {
                     className="flex items-center gap-1" 
                     
                 >
-                    <Image src={logo} alt="techtomic labs" className="w-[2.5rem] md:w-[2.8rem]"/>
-                    <h1 className="text-[1.3rem] md:text-[1.8rem] font-semibold tracking-tight text-zinc-100">Techtonic Labs</h1>
+                    <Image src={logo} alt="techtomic lab" className="w-[2.5rem] md:w-[2.8rem]"/>
+                    <h1 className="text-[1.3rem] md:text-[1.8rem] font-semibold tracking-tight text-zinc-100">Techtonic Lab</h1>
                 </div>
             </div>
             <p className="text-gray-400 mb-6 text-sm">
@@ -84,7 +84,7 @@ const FooterSection = () => {
                 <a href="tel:+918109167152" className="text-gray-400 hover:text-white transition-colors">+91-8109167152</a>
               </li> */}
               <li className="flex items-center">
-                <Mail size={18} className="text-blue-500 mr-3" />
+                <Mail size={18} className="text-blue-500 mr-3 shrink-0" />
                 <Link href="mailto:admin@techtoniccorporate.com" className="text-gray-400 hover:text-white transition-colors">admin@techtoniccorporate.com</Link>
               </li>
             </ul>
@@ -104,7 +104,7 @@ const FooterSection = () => {
 
         {/* Copyright Information */}
         <div className="mt-12 pt-8  text-center text-gray-400 text-sm">
-          <p>Copyright © 2025 Techtonic Labs Pvt. Ltd.</p>
+          <p>Copyright © 2025 Techtonic Lab Pvt. Ltd.</p>
           <p>All Rights Reserved.</p>
         </div>
       </div>
