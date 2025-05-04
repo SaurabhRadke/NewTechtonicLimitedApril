@@ -143,19 +143,19 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
             className="fixed top-0 right-0 h-full bg-white z-50 shadow-xl overflow-x-hidden overflow-y-auto "
             style={{ width: windowWidth > 768 ? '600px' : '100%' }}
           >
-            <div className="flex flex-col h-full pt-[12%]  ">
+            <div className="flex flex-col h-full pt-[7%]  ">
               {/* Social media column */}
               
 
               {/* Menu column */}
               <motion.div className="w-full p-8">
                 <motion.h2 
-                  className="text-emerald-600 text-[1.5rem] md:text-[2rem] xl:text-[3rem] mb-8"
+                  className="text-emerald-600 text-[1.5rem] md:text-[2rem] xl:text-[3rem] mb-4"
                   variants={menuItemVariants}
                 >
                   Menu
                 </motion.h2>
-                <nav className=' pl-10 w-full'>
+                <nav className=' pl-10 w-full '>
                   <ul className=' w-full'>
                     {menuLinks.map((link, index) => (
                       <motion.li key={index} className="mb-2 relative group w-[90%] cursor-pointer hover:bg-emerald-300/20 py-2 duration-150" variants={menuItemVariants}>
@@ -169,7 +169,7 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
                 </nav>
                 
                 {/* Contact info */}
-                <div className="mt-16">
+                <div className="mt-10">
                   <motion.h3 
                     className="text-emerald-600 text-[1.5rem] md:text-[2rem] xl:text-[3rem] mb-4"
                     variants={menuItemVariants}

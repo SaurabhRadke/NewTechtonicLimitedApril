@@ -20,9 +20,9 @@ export default function Home() {
       <HeaderSection/>
       <div className=" relative w-full h-[100vh]">
         <RadialGradientSection/>
-        <ThreeStepSection/>
       </div>
-      <div className=" w-full h-[65vh] sm:h-[50vh]   "></div>
+
+      <div className=" w-full h-[65vh]   sm:h-[60vh]   "></div>
       <div className=" w-full min-h-[50vh] pt-[10vh]  ">
         <div className="  w-full h-auto">
           <TrustedPartners />

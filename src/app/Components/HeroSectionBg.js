@@ -2,6 +2,7 @@
 import { animate, useMotionTemplate, useMotionValue,motion } from "motion/react"
 import { useEffect, useState } from "react"
 import HeroSectionContent from "./HeroSectionContent"
+import ThreeStepSection from "./ThreeStepsSection"
 
 const colors=[
     'rgba(172, 19, 59, 0.52)',
@@ -32,6 +33,8 @@ export default function RadialGradientSection(){
 <HeroSectionContent currentColor={currentColor}/>
 
         </motion.section>
+        <ThreeStepSection/>
+
         </div>
        
     )
