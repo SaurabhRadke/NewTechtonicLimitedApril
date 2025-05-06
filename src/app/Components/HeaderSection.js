@@ -41,7 +41,7 @@ export default function HeaderSection(){
     }, []);
 
     return(
-        <div className={` ${path==="/carrers" ? "bg-zinc-900":""} w-full px-3 md:px-6 py-2 flex z-20 items-center justify-between fixed top-0 left-0`}>
+        <div className={` ${path==="/career" ? "bg-zinc-900":""} w-full px-3 md:px-6 py-2 flex z-20 items-center justify-between fixed top-0 left-0`}>
             <SideNavBar isOpen={openMenu} setIsOpen={setOpenMenu}  />
             <ContactAvatar/>
             <Link href="/"><div id="logo" className={`duration-300 ${hasScrolled && "scale-0 opacity-0"} overflow-hidden`}>

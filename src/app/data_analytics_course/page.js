@@ -244,7 +244,7 @@ const DataScienceAccordion = () => {
         >
           <div className="space-y-6">
             <div className="bg-zinc-900 p-6 rounded-lg">
-              <h4 className="text-xl font-semibold text-blue-500 mb-3">Data Science Career Opportunities</h4>
+              <h4 className="text-xl font-semibold text-blue-500 mb-3">Data Career Opportunities</h4>
               <p className="text-zinc-300 mb-4">
                 Our comprehensive program prepares you for multiple high-demand roles in the data ecosystem, with
                 personalized guidance to help you choose your ideal career path.

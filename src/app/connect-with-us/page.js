@@ -45,7 +45,7 @@ export default function ContactPage() {
               <p className="mt-2 text-base text-gray-600">admin@techtoniccorporate.com</p>
             </div></Link>
             
-            <Link href="https://www.google.com/maps/search/?api=1&query=SAI+NIT-JIT+PLAZA%2C+Second+Floor%2C+Plot+No.10%2C+Beltarodi+Ed.+nr.+GULMOHAR+RESTAURANT%2C+Manish+Nagar%2C+Somalwar%2C+nagpur%2C+MH-440037" target="__blank"><div className="text-center">
+            <Link href="https://www.google.com/maps/search/?api=1&query=SAI+NIT-JIT+PLAZA%2C+Second+Floor%2C+Plot+No.10%2C+Beltarodi+Rd.+nr.+GULMOHAR+RESTAURANT%2C+Manish+Nagar%2C+Somalwada%2C+nagpur%2C+MH-440037" target="__blank"><div className="text-center">
               <div className="flex items-center justify-center h-12 w-12 rounded-full bg-gray-100 mx-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-gray-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
@@ -53,7 +53,7 @@ export default function ContactPage() {
                 </svg>
               </div>
               <h3 className="mt-4 text-lg font-medium text-gray-900">Visit us</h3>
-              <p className="mt-2 text-base text-gray-600">SAI NIT-JIT PLAZA, Second Floor, Plot No.10, Beltarodi Ed. nr. GULMOHAR RESTAURANT, Manish Nagar, Somalwar, nagpur, MH-440037</p>
+              <p className="mt-2 text-base text-gray-600">SAI NIT-JIT PLAZA, Second Floor, Plot No.10, Beltarodi Rd. nr. GULMOHAR RESTAURANT, Manish Nagar, Somalwada, nagpur, MH-440037</p>
             </div></Link>
           </div>
         </div>

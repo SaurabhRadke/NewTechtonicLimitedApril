@@ -156,7 +156,7 @@ const CoursesSection = () => {
       onMouseLeave={() => setHoveredCard(null)} // Reset when mouse leaves the section
     >
       <div className="max-w-7xl mx-auto ">
-        <p className='text-[0.7rem] md:text-[0.9rem] text-emerald-700 w-full text-center font-[600] mb-3'>TECHTONIC LAB COURSE</p>
+        <p className='text-[0.7rem] md:text-[0.9rem] text-emerald-700 w-full text-center font-[600] mb-3'>TECHTONIC LAB </p>
         {/* Heading */}
         <motion.div 
           className="mb-12"

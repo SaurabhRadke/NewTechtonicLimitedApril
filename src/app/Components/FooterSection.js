@@ -27,7 +27,7 @@ const FooterSection = () => {
             </p>
             <p className="mb-4 text-gray-400">Let&apos;s connect with our socials</p>
             <div className="flex gap-4 pl-5">
-              <Link href="https://www.instagram.com/techtoniclab/profilecard/?igsh=MThueDJ5MGp2bGFwNg==" className="text-white hover:text-emerald-500 transition-colors">
+              <Link href="https://www.instagram.com/techtonic_lab?igsh=cWJzNzJhaWlqa2p0" className="text-white hover:text-emerald-500 transition-colors">
                 <Instagram size={20} />
               </Link>
               <Link href="https://www.facebook.com/profile.php?id=61570667766428" className="text-white hover:text-emerald-500 transition-colors">
@@ -58,7 +58,7 @@ const FooterSection = () => {
                 <MapPin size={18} className="text-blue-500 mr-2 mt-1 flex-shrink-0" />
                 <div className="text-sm text-gray-400">
                   <p className="font-medium text-gray-300">Head Office:</p>
-                  <p>SAI NIT-JIT PLAZA, Second Floor, Plot No.10, Beltarodi Ed. nr. GULMOHAR RESTAURANT, Manish Nagar, Somalwar, nagpur, MH-440037</p>
+                  <p>SAI NIT-JIT PLAZA, Second Floor, Plot No.10, Beltarodi Rd. nr. GULMOHAR RESTAURANT, Manish Nagar, Somalwada, nagpur, MH-440037</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -91,7 +91,7 @@ const FooterSection = () => {
             
             <h3 className="text-lg font-medium mb-4 mt-8">Follow Us</h3>
             <div className="flex gap-4 pl-4">
-              <Link href="https://www.instagram.com/techtoniclab/profilecard/?igsh=MThueDJ5MGp2bGFwNg==" className="text-white hover:text-emerald-500 transition-colors">
+              <Link href="https://www.instagram.com/techtonic_lab?igsh=cWJzNzJhaWlqa2p0" className="text-white hover:text-emerald-500 transition-colors">
                 <Instagram size={20} />
               </Link>
               <Link href="https://www.facebook.com/profile.php?id=61570667766428" className="text-white hover:text-emerald-500 transition-colors">

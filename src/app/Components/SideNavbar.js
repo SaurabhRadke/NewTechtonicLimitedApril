@@ -68,7 +68,7 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
   };
 
   const socialLinks = [
-    { name: "Instagram", url: "https://www.instagram.com/techtoniclab/profilecard/?igsh=MThueDJ5MGp2bGFwNg==" },
+    { name: "Instagram", url: "https://www.instagram.com/techtonic_lab?igsh=cWJzNzJhaWlqa2p0" },
     { name: "Facebook", url: "https://www.facebook.com/profile.php?id=61570667766428" },
   ];
 
@@ -76,7 +76,7 @@ const SideNavBar = ({isOpen, setIsOpen}) => {
     { name: "Home", url: "/" },
     { name: "About Us", url: "/aboutus" },
     { name: "Courses", url: "/#courses" },
-    { name: "Carrers", url: "/carrers" },
+    { name: "Career", url: "/career" },
     { name: "Hire From Us", url: "/hire-from-us" },
     { name: "Contacts", url: "/connect-with-us" }
   ];

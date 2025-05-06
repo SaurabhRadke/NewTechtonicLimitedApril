@@ -347,8 +347,8 @@ const PrivacyPolicy = () => {
                       <span className="text-gray-800 font-medium">Address:</span>
                       <address className="mt-1 text-gray-700 not-italic">
                       SAI NIT-JIT PLAZA, Second Floor, Plot No.10,<br />
-                      Beltarodi Ed. nr. GULMOHAR RESTAURANT,<br />
-                      Manish Nagar, Somalwar, Nagpur<br />
+                      Beltarodi Rd. nr. GULMOHAR RESTAURANT,<br />
+                      Manish Nagar, Somalwada, Nagpur<br />
                       MH-440037
                       </address>
                     </div>

@@ -6,7 +6,7 @@ import { FaUserTie } from "react-icons/fa";
 const testimonials = [
   {
     id: 1,
-    content: "Thanks to Techtonic Lab's expert training and strong industry connections, I got placed at InfoCrafts in no time!",
+    content: "Thanks to Techtonic Lab's expert training and strong industry connections, I got placed at InfoKrafts in no time!",
     rating: 5,
     name: "Pranal Rewatkar",
     company: "InfoKrafts",
