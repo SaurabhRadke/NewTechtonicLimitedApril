@@ -15,18 +15,18 @@ const testimonials = [
   },
   {
     id: 2,
-    content: "Techtonic Lab helped me get my dream job, I had a MBA background!",
+    content: "Techtonic Lab helped me get my dream job, I had a long career gap.",
     rating: 5,
-    name: "Ravi Sharma",
+    name: "Chinmay Pande",
     company: "Infosys",
     package: "₹6.5 LPA",
     image: "/api/placeholder/40/40"
   },
   {
     id: 3,
-    content: "From zero to SAP-certified with real project exposure.",
+    content: "I am very much thankfull to techtonic lab for helping me to get into real quick with non IT background.",
     rating: 5,
-    name: "Anjali Rane",
+    name: "Avinash Bawane",
     company: "Capgemini",
     package: "₹5.2 LPA",
     image: "/api/placeholder/40/40"

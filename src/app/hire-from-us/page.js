@@ -4,6 +4,7 @@ import { Check, AlertCircle, Briefcase, GraduationCap, Clock, MapPin, Building, 
 import HeaderSection from '../Components/HeaderSection';
 import FooterSection from '../Components/FooterSection';
 import { sendHiringEmail } from '../utiles/Hirefromus';
+import Link from 'next/link';
 
 const HiringForm = () => {
   const [formData, setFormData] = useState({
@@ -332,8 +333,8 @@ const handleSubmit = async (e) => {
           </p>
           
           {/* Contact info */}
-          <div className="flex flex-col md:flex-row gap-6 mt-6 w-full justify-center">
-            <div className="flex items-center ">
+          <div className="flex flex-col md:flex-row  gap-6 mt-6 w-full justify-center">
+          <Link href="https://www.google.com/maps/search/?api=1&query=SAI+NIT-JIT+PLAZA%2C+Second+Floor%2C+Plot+No.10%2C+Beltarodi+Rd.+nr.+GULMOHAR+RESTAURANT%2C+Manish+Nagar%2C+Somalwada%2C+nagpur%2C+MH-440037" target='__blank'> <div className="p-2 hover:bg-emerald-500/30 rounded-md duration-300  flex items-center ">
               <div className="bg-teal-50 p-2 rounded-full mr-3">
                 <MapPin className="h-8 w-8 text-teal-600" />
               </div>
@@ -341,17 +342,17 @@ const handleSubmit = async (e) => {
                 <p className="text-sm font-medium text-zinc-900">Visit us</p>
                 <p className="text-sm text-gray-500">SAI NIT-JIT PLAZA, Manish Nagar, Nagpur</p>
               </div>
-            </div>
+            </div></Link>
             
-            <div className="flex items-center">
+            <Link href="mailto:admin@techtoniccorporate.com"><div className="flex  hover:bg-emerald-500/30 rounded-md duration-300 p-2 items-center">
               <div className="bg-teal-50 p-2 rounded-full mr-3">
                 <Mail className="h-8 w-8 text-teal-600" />
               </div>
               <div>
                 <p className="text-sm font-medium text-zinc-900">Email us</p>
-                <p className="text-sm text-gray-500">admin@techtonichrms.com</p>
+                <p className="text-sm text-gray-500">admin@techtoniccorporate.com</p>
               </div>
-            </div>
+            </div></Link>
           </div>
         </div>
       </div>
