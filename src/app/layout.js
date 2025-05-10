@@ -1,6 +1,6 @@
 import { Montserrat, Geist_Mono } from "next/font/google";
 import "./globals.css";
-
+import { Analytics } from "@vercel/analytics/next"
 const montserrat = Montserrat({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -22,6 +22,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${montserrat.className} ${geistMono.variable} antialiased`}
       >
+        <Analytics/>
         {children}
       </body>
     </html>

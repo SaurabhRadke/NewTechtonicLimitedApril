@@ -3,9 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { FaUserTie } from "react-icons/fa";
 
+// Make sure all testimonials have the correct ID that matches their index + 1
 const testimonials = [
   {
-    id: 1,
+    id: 1, // First testimonial (index 0)
     content: "Thanks to Techtonic Lab's expert training and strong industry connections, I got placed at InfoKrafts in no time!",
     rating: 5,
     name: "Pranal Rewatkar",
@@ -14,8 +15,8 @@ const testimonials = [
     image: "/api/placeholder/40/40"
   },
   {
-    id: 2,
-    content: "Techtonic Lab helped me get my dream job, I had a long career gap.",
+    id: 2, // Second testimonial (index 1)
+    content: "Techtonic Lab has helped me restart my career after a long career gap.",
     rating: 5,
     name: "Chinmay Pande",
     company: "Infosys",
@@ -23,23 +24,44 @@ const testimonials = [
     image: "/api/placeholder/40/40"
   },
   {
-    id: 3,
+    id: 3, // Third testimonial (index 2)
     content: "I am very much thankfull to techtonic lab for helping me to get into real quick with non IT background.",
     rating: 5,
     name: "Avinash Bawane",
-    company: "Capgemini",
+    company: "Lighthouse Info Systems",
     package: "₹5.2 LPA",
+    image: "/api/placeholder/40/40"
+  },
+  {
+    id: 4, // Fourth testimonial (index 3)
+    content: "I was a Home Maker and from Non-IT Education background. Techtonic Lab helped me get start my journey in IT in Nagpur. The technical training and corporate grooming is planned in such way that it will make you Hero from Zero.",
+    rating: 5,
+    name: "Rupali Tekade", // Fixed the extra space in the name
+    company: "GIF Technologies",
+    package: "",
     image: "/api/placeholder/40/40"
   }
 ];
 
 const TestimonialCarousel = () => {
+  // Start with the first testimonial (index 0)
   const [currentIndex, setCurrentIndex] = useState(0);
+  
+  // Add this function to manually navigate between testimonials
+  const goToTestimonial = (index) => {
+    setCurrentIndex(index);
+  };
   
   useEffect(() => {
     // Auto-advance the carousel every 5 seconds
+    // Explicitly log each transition to ensure all testimonials are shown
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % testimonials.length);
+      setCurrentIndex((prevIndex) => {
+        // Simple modulo operation to cycle through all testimonials
+        const nextIndex = (prevIndex + 1) % testimonials.length;
+        console.log(`Moving from testimonial ${prevIndex+1} to ${nextIndex+1}`);
+        return nextIndex;
+      });
     }, 5000);
     
     return () => clearInterval(interval);
@@ -137,17 +159,18 @@ const TestimonialCarousel = () => {
           </motion.div>
         </div>
         
-        {/* Indicator Dots */}
+        {/* Indicator Dots - clickable for manual navigation */}
         <div className="flex justify-center mt-3">
           {testimonials.map((_, index) => (
             <motion.div
               key={index}
-              className={`w-2 h-2 mx-1 rounded-full ${currentIndex === index ? 'bg-emerald-400' : 'bg-gray-600'}`}
+              className={`w-2 h-2 mx-1 rounded-full ${currentIndex === index ? 'bg-emerald-400' : 'bg-gray-600'} cursor-pointer`}
               animate={{
                 scale: currentIndex === index ? 1.2 : 1,
                 backgroundColor: currentIndex === index ? '#34D399' : '#4B5563'
               }}
               transition={{ duration: 0.3 }}
+              onClick={() => goToTestimonial(index)} // Enable clicking dots to navigate
             />
           ))}
         </div>
